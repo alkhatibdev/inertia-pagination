@@ -14,7 +14,7 @@ install via composer
 composer require alkhatibdev/inertia-pagination
 ```
 
-## Publish Configs 
+## Publish 
 ```shell
 php artisan vendor:publish --tag=inertia-pagination
 ```
