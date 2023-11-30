@@ -1,0 +1,30 @@
+{
+    "name": "alkhatibdev/inertia-pagination",
+    "version": "0.0.1",
+    "description": "Laravel Inertia Pagination, is a Laravel package for generating inertia pagination vue component, designed with TailwindCSS.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alkhatib Hamad",
+            "email": "me@alkhatib.dev",
+            "homepage": "https://github.com/alkhatibdev",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "AlkhatibDev\\InertiaPagination\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlkhatibDev\\InertiaPagination\\Providers\\InertiaPaginationServiceProvider"
+            ]
+
+        }
+    }
+}
